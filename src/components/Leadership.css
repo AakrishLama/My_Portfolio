@@ -1,6 +1,6 @@
 .leadership-section {
   padding: var(--section-padding);
-  background: var(--bg-color);
+  background: transparent;
 }
 
 .leadership-grid {
@@ -10,10 +10,13 @@
 }
 
 .leadership-card {
-  background: var(--surface-color);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
   transition: transform var(--transition-normal);
 }
 
