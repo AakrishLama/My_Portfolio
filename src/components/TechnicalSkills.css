@@ -35,6 +35,16 @@
   font-size: 0.9rem;
   color: var(--text-primary);
   transition: background var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill-icon {
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  font-size: 1.1em;
 }
 
 .skill-tag:hover {

@@ -4,6 +4,12 @@
   overflow: hidden;
   transition: transform var(--transition-normal), box-shadow var(--transition-normal);
   border: 1px solid rgba(255, 255, 255, 0.05);
+  display: block;
+  /* Ensure anchor behaves like block */
+  text-decoration: none;
+  /* Remove default link underline */
+  color: inherit;
+  /* Inherit text color */
 }
 
 .project-card:hover {

@@ -2,11 +2,11 @@ import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
+    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-card">
       <div className="card-image-wrapper">
         <img src={project.image} alt={project.title} className="card-image" />
         <div className="card-overlay">
-          <button className="view-btn">View Details</button>
+          <span className="view-btn">View Code</span>
         </div>
       </div>
       <div className="card-content">
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
