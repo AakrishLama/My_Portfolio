@@ -20,6 +20,10 @@
   --transition-normal: 0.3s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -78,6 +82,7 @@ img {
   margin-bottom: 2rem;
   text-align: center;
   background: var(--accent-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
