@@ -22,6 +22,8 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 20px;
+  /* Increased base font size */
 }
 
 *,
@@ -37,6 +39,8 @@ body {
   background-color: var(--bg-color);
   color: var(--text-primary);
   min-height: 100vh;
+  line-height: 1.6;
+  /* Improved readability */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
