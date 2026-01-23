@@ -1,0 +1,40 @@
+.leadership-section {
+  padding: var(--section-padding);
+  background: var(--bg-color);
+}
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.leadership-card {
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform var(--transition-normal);
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.leadership-card h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.leadership-card .period {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.leadership-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}

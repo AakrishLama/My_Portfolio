@@ -22,9 +22,16 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Recipe Book",
-    image: "/projects/RecipeBook.png",
-    description: "Interactive culinary application allowing users to discover, save, and share recipes. Includes ingredient calculation and personalized meal planning features.",
-    tags: ["Vue.js", "Firebase", "Social"]
+    title: "Weather App",
+    image: "/projects/weather.png",
+    description: "Real-time weather application providing accurate forecasts, condition updates, and location-based services.",
+    tags: ["JavaScript", "API Integration", "CSS"]
+  },
+  {
+    id: 5,
+    title: "Harmonic Tuner",
+    image: "https://placehold.co/600x400/1a1a1a/646cff?text=Harmonic+Tuner",
+    description: "Developed a browser-based guitar tuner tested by 50+ musicians, achieving real-time pitch detection with 95% accuracy by integrating ML algorithms. Improved tuning response time by 40% via frequency smoothing.",
+    tags: ["ML", "Audio Processing", "Web Audio API"]
   }
 ];

@@ -1,0 +1,29 @@
+.languages-section {
+  padding: var(--section-padding);
+  background: var(--surface-color);
+  text-align: center;
+}
+
+.languages-list {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.lang-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lang-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.lang-level {
+  color: var(--accent-color);
+  font-weight: 500;
+}
