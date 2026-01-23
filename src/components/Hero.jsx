@@ -10,8 +10,12 @@ const Hero = () => {
             <span className="gradient-text">Experiences</span>
           </h1>
           <p className="hero-bio">
-            I'm a passionate developer creating stylish, functional, and user-centric web applications.
-            Transforming ideas into reality through clean code and modern design.
+            I’m Aakrish Lama, a developer who enjoys solving challenging problems through thoughtful
+            system design and clean code. My experience spans full-stack web development, cloud platforms,
+            and applied machine learning, with a strong focus on performance and reliability.
+            I’ve worked with technologies like React, Spring Boot, Docker, and AWS to build real products —
+            from collaborative cloud platforms to ML-powered audio tools — always aiming to ship software that’s efficient,
+            secure, and user-focused.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary">View Projects</a>
