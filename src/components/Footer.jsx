@@ -1,14 +1,14 @@
 import './Footer.css';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer-content">
-        <p>&copy; {new Date().getFullYear()} Aakrish Lama. All rights reserved.</p>
+        <p> {new Date().getFullYear()} Aakrish Lama</p>
         <div className="footer-links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <a href="https://github.com/AakrishLama" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/aakrishlama/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </div>
     </footer>

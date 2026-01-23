@@ -20,6 +20,10 @@
 
 .footer-links a {
   transition: color var(--transition-fast);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
 }
 
 .footer-links a:hover {

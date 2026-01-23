@@ -6,11 +6,11 @@ const Hero = () => {
       <div className="container hero-content">
         <div className="hero-text">
           <h1>
-            Building Digital <br />
-            <span className="gradient-text">Experiences</span>
+            About Me <br />
+            <span className="gradient-text">Aakrish Lama</span>
           </h1>
           <p className="hero-bio">
-            I’m Aakrish Lama, a developer who enjoys solving challenging problems through thoughtful
+            I’m a developer who enjoys solving challenging problems through thoughtful
             system design and clean code. My experience spans full-stack web development, cloud platforms,
             and applied machine learning, with a strong focus on performance and reliability.
             I’ve worked with technologies like React, Spring Boot, Docker, and AWS to build real products —
