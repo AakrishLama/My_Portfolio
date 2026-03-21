@@ -18,6 +18,10 @@ const Languages = () => {
             <span className="lang-name">Swedish</span>
             <span className="lang-level">(Fluent)</span>
           </div>
+          <div className="lang-item">
+            <span className="lang-name">Hindi</span>
+            <span className="lang-level">(Fluent)</span>
+          </div>
         </div>
       </div>
     </section>
