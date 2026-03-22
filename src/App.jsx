@@ -40,9 +40,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <WorkExperience />
         <Projects />
         <TechnicalSkills />
-        <WorkExperience />
         <Leadership />
         <Education />
         <Certifications />

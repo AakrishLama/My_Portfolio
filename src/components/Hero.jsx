@@ -13,8 +13,8 @@ const Hero = () => {
             I’m a developer who enjoys solving challenging problems through thoughtful
             system design and clean code. My experience spans full-stack web development, cloud platforms,
             and applied machine learning, with a strong focus on performance and reliability.
-            I’ve worked with technologies like React, Spring Boot, Docker, and AWS to build real products —
-            from collaborative cloud platforms to ML-powered audio tools — always aiming to ship software that’s efficient,
+            I’ve worked with technologies like React, Spring Boot, Docker, and AWS to build real products,
+            from collaborative cloud platforms to ML-powered audio tools and always aiming to ship software that’s efficient,
             secure, and user-focused.
           </p>
           <div className="hero-cta">

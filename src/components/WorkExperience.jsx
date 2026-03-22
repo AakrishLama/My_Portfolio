@@ -3,9 +3,15 @@ import './WorkExperience.css';
 const WorkExperience = () => {
   const experiences = [
     {
+      company: "Rankad AB",
+      role: "Fullstack Developer",
+      period: "March 2025 - present",
+        description: "Optimizing domain visibility and performance for Large Language Models (LLMs) by developing full-stack features that enhance search engine relevance."
+    },
+    {
       company: "Videntic AB",
       role: "Backend Developer",
-      period: "Dec 2025 - Present",
+      period: "Dec 2025 - Feb 2025",
       description: "Researched GEO and implemented functionality based on numerous peer reviewed research papers."
     },
     {
