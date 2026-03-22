@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="home" className="hero-section">
       <div className="container hero-content">
         <div className="hero-text">
-          <h1>
+          <h1 className="hero-title" style={{fontFamily: "charm"}}>
             About Me <br />
             <span className="gradient-text">Aakrish Lama</span>
           </h1>

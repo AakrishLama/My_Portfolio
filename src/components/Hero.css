@@ -24,6 +24,11 @@
   background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  animation: heroTitleReveal 1s ease-out 0.1s both;
 }
 
 .hero-bio {
@@ -32,6 +37,43 @@
   margin-bottom: 2rem;
   max-width: 500px;
   line-height: 1.6;
+  font-weight: 400;
+  font-style: normal;
+  animation: heroBioReveal 1s ease-out 0.35s both;
+  color: aliceblue;
+}
+
+@keyframes heroTitleReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+    filter: blur(3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes heroBioReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gradient-text,
+  .hero-bio {
+    animation: none;
+  }
 }
 
 .hero-cta {
