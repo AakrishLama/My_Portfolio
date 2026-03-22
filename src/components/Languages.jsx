@@ -1,8 +1,11 @@
 import './Languages.css';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const Languages = () => {
+  const sectionRef = useScrollReveal();
+
   return (
-    <section id="languages" className="languages-section">
+    <section id="languages" className="languages-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title">Languages</h2>
         <div className="languages-list">

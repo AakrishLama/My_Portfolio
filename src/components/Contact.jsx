@@ -1,8 +1,11 @@
 import './Contact.css';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const Contact = () => {
+  const sectionRef = useScrollReveal();
+
   return (
-    <section id="contact" className="contact-section">
+    <section id="contact" className="contact-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-content">

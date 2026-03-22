@@ -155,3 +155,24 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: transform, opacity;
+}
+
+.scroll-reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal,
+    .scroll-reveal.in-view {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

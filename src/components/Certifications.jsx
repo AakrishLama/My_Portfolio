@@ -1,8 +1,11 @@
 import './Certifications.css';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const Certifications = () => {
+  const sectionRef = useScrollReveal();
+
   return (
-    <section id="certifications" className="certifications-section">
+    <section id="certifications" className="certifications-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title">Certifications</h2>
         <div className="cert-card">

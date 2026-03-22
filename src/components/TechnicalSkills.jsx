@@ -1,6 +1,7 @@
 import './TechnicalSkills.css';
 import { FaPython, FaJava, FaJs, FaReact, FaVuejs, FaNodeJs, FaDocker, FaGitAlt, FaAws, FaLinux, FaMicrosoft } from 'react-icons/fa';
 import { SiCplusplus, SiGo, SiHtml5, SiCss3, SiDart, SiFlutter, SiPostman, SiJira, SiSpringboot, SiNextdotjs, SiMongodb, SiPostgresql, SiMysql, SiScikitlearn, SiNumpy, SiPandas, SiTensorflow } from 'react-icons/si';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const TechnicalSkills = () => {
   const skills = {
@@ -45,8 +46,10 @@ const TechnicalSkills = () => {
     ]
   };
 
+  const sectionRef = useScrollReveal();
+
   return (
-    <section id="skills" className="skills-section">
+    <section id="skills" className="skills-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title">Technical Skills</h2>
         <div className="skills-grid">

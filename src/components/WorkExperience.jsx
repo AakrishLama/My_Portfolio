@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+import useScrollReveal from '../hooks/useScrollReveal';
 import './WorkExperience.css';
 
 const WorkExperience = () => {
@@ -40,8 +42,29 @@ const WorkExperience = () => {
         }
     ];
 
+    const experienceRefs = useRef([]);
+    const sectionRef = useScrollReveal();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            },
+            { threshold: 0.3 }
+        );
+
+        experienceRefs.current.forEach((item) => item && observer.observe(item));
+
+        return () => observer.disconnect();
+    }, []);
+
     return (
-        <section id="experience" className="experience-section">
+        <section id="experience" className="experience-section" ref={sectionRef}>
             <div className="container">
                 <h2 className="section-title">Work Experience</h2>
                 <div className="experience-timeline">
@@ -50,6 +73,7 @@ const WorkExperience = () => {
                             key={index}
                             className="experience-item"
                             style={{ '--slide-index': String(index) }}
+                            ref={(el) => (experienceRefs.current[index] = el)}
                         >
                             <div className="experience-marker"></div>
                             <div className="experience-content">

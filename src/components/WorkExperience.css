@@ -18,6 +18,9 @@
   position: relative;
   opacity: 0;
   transform: translateY(30px);
+}
+
+.experience-item.in-view {
   animation: timelineSlide 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   animation-delay: calc(var(--slide-index, 0) * 0.15s);
 }
@@ -110,6 +113,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .experience-item,
+  .experience-item.in-view,
   .experience-marker {
     animation: none;
     opacity: 1;

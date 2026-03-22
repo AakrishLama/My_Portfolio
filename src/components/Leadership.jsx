@@ -1,8 +1,11 @@
 import './Leadership.css';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const Leadership = () => {
+  const sectionRef = useScrollReveal();
+
   return (
-    <section id="leadership" className="leadership-section">
+    <section id="leadership" className="leadership-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title">Leadership</h2>
         <div className="leadership-grid">

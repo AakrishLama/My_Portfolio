@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer w-full py-4 bg-gray-800 text-white text-center">
       <div className="container footer-content">
         <p> {new Date().getFullYear()} Aakrish Lama</p>
         <div className="footer-links">
