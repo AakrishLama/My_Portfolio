@@ -42,7 +42,7 @@ export const projects = [
   {
     id: 6,
     title: "Neptune",
-    image: "https://placehold.co/600x400/1a1a1a/646cff?text=Harmonic+Tuner",
+    image: "/projects/guitar.png",
     description: "Developed a browser-based guitar tuner tested by 50+ musicians, achieving real-time pitch detection with 95% accuracy by integrating ML algorithms. Improved tuning response time by 40% via frequency smoothing.",
     tags: ["ML", "HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/AakrishLama/GuitarTuner"
