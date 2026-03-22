@@ -1,4 +1,6 @@
 .languages-section {
+  --accent-color: #84cc16;
+  --accent-gradient: linear-gradient(120deg, #bef264 0%, #22c55e 100%);
   padding: var(--section-padding);
   background: transparent;
   text-align: center;

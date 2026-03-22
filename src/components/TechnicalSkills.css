@@ -1,4 +1,6 @@
 .skills-section {
+  --accent-color: #fbbf24;
+  --accent-gradient: linear-gradient(120deg, #facc15 0%, #f97316 100%);
   padding: var(--section-padding);
   background: transparent;
 }

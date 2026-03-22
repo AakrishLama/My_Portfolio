@@ -1,4 +1,6 @@
 .footer {
+  --accent-color: #38bdf8;
+  --accent-gradient: linear-gradient(120deg, #38bdf8 0%, #22d3ee 100%);
   padding: 2rem 0;
   background: var(--glass-bg);
   backdrop-filter: var(--glass-backdrop);

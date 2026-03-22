@@ -2,14 +2,14 @@
     --font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 
     /* Color Palette */
-    --bg-color: #0f0f0f;
-    --surface-color: #1a1a1a;
-    --text-primary: #ffffff;
-    --text-secondary: #a1a1aa;
-    --highlight-color: #ffffff;
+    --bg-color: #05060a;
+    --surface-color: #12131a;
+    --text-primary: #f4f6fb;
+    --text-secondary: #9ca3af;
+    --highlight-color: #f1f5f9;
 
-    --accent-color: #646cff;
-    --accent-gradient: linear-gradient(135deg, #646cff 0%, #a855f7 100%);
+    --accent-color: #2dd4bf;
+    --accent-gradient: linear-gradient(135deg, #2dd4bf 0%, #22d3ee 100%);
 
     /* Spacing */
     --section-padding: 4rem 1rem;

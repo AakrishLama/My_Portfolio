@@ -1,4 +1,6 @@
 .leadership-section {
+  --accent-color: #fb7185;
+  --accent-gradient: linear-gradient(120deg, #fb7185 0%, #f472b6 100%);
   padding: var(--section-padding);
   background: transparent;
 }

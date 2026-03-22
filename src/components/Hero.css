@@ -1,4 +1,6 @@
 .hero-section {
+  --accent-color: #34d399;
+  --accent-gradient: linear-gradient(120deg, #34d399 0%, #06b6d4 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;

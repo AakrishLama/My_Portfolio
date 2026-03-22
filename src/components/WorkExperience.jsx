@@ -46,11 +46,15 @@ const WorkExperience = () => {
                 <h2 className="section-title">Work Experience</h2>
                 <div className="experience-timeline">
                     {experiences.map((exp, index) => (
-                        <div key={index} className="experience-item">
+                        <div
+                            key={index}
+                            className="experience-item"
+                            style={{ '--slide-index': String(index) }}
+                        >
                             <div className="experience-marker"></div>
                             <div className="experience-content">
                                 <img src={exp.image} alt={exp.company} className="company-logo " />
-                                <h2 className="company-name py-2 font-bold" style={{color: "#18789e"}}>{exp.company}</h2>
+                                <h2 className="company-name py-2 font-bold">{exp.company}</h2>
                                 <h4 className="role py-2">{exp.role}</h4>
                                 <div className="period">{exp.period}</div>
                                 <p>{exp.description}</p>

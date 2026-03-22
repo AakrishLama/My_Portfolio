@@ -1,4 +1,6 @@
 .projects-section {
+  --accent-color: #fb923c;
+  --accent-gradient: linear-gradient(120deg, #fb923c 0%, #f43f5e 100%);
   padding: var(--section-padding);
 }
 

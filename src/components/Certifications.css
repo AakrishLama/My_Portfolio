@@ -1,4 +1,6 @@
 .certifications-section {
+  --accent-color: #f97316;
+  --accent-gradient: linear-gradient(120deg, #fdba74 0%, #f97316 100%);
   padding: var(--section-padding);
   background: transparent;
 }

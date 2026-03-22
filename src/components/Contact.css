@@ -1,4 +1,6 @@
 .contact-section {
+  --accent-color: #4ade80;
+  --accent-gradient: linear-gradient(120deg, #4ade80 0%, #22c55e 100%);
   padding: var(--section-padding);
   background: transparent;
 }
