@@ -10,7 +10,7 @@ const Certifications = () => {
             <img src="/az900.png" alt="AWS AZ9000" className="cert-logo" />
           </div>
           <div className="cert-content">
-            <h3>Azure AZ9000</h3>
+            <h3>Azure AZ-900</h3>
             <p>Certified Cloud Practitioner & Architect</p>
           </div>
         </div>
